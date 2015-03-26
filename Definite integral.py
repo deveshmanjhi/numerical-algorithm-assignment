@@ -26,7 +26,7 @@ class Integrate():
         return h * s / 3.0
         
         
-    def simplot(self,f,a,b,n):
+  def simplot(self,f,a,b,n):
         x=np.arange(a,b,0.1)
         y=f(x)
         plt.plot(x,y,'r-')
@@ -50,7 +50,7 @@ class Integrate():
         plt.xlabel('X-AXIS')
         plt.ylabel('Y-AXIS')
     
-      def traplot(self,f,a,b,n):
+    def traplot(self,f,a,b,n):
         x=np.arange(a,b,0.1)
         y=f(x)
         plt.plot(x,y,'r-')
