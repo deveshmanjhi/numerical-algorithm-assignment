@@ -62,6 +62,7 @@ class Integrate():
         for i,j in zip(z,c):
             plt.plot([i,i],[j,0],'bo-')
         plt.plot(z,f(z),'bo-')
+        plt.fill_between(z,c, color='green')
         plt.title('INTEGRATION BY TRAPEZOIDAL METHOD')
         plt.xlabel('X-AXIS')
         plt.ylabel('Y-AXIS')    
